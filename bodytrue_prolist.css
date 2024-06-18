@@ -1,0 +1,59 @@
+/*programlist*/
+.sort_right{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#sort1{
+    float: right;
+    font-size: 20px;
+    width: 120px;
+}
+
+.prolist_main{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+.prolist_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.program_item{
+    display: flex;
+    flex-wrap: wrap;
+    width: 256px;
+    margin: 25PX;
+}
+
+#proimage{
+    width: 256px;
+    height: 256px;
+    justify-content: space-between;
+}
+
+/*programdetail*/
+
+.left-panel, .right-panel {
+    padding: 20px;
+}
+.programdetailimg{
+    padding: 20px;
+    width: 600px;
+    height: 600px;
+}
+.left-panel {
+    flex: 3;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
